@@ -9,8 +9,8 @@
 export default {
   data() {
     return{
-      title: "Leafhub. title",
-      subTitle: "Leafhub. subtitle"
+      title: "Leafhub.",
+      subTitle: "subtitle"
     }
   }
 }

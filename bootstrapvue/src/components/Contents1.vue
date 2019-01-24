@@ -8,7 +8,7 @@
   </div>
   <hr>
   <div class="box-holder">
-    <div class="box" v-for="mechanism in csv">
+    <div class="box" v-for="mechanism in csv" :key="mechanism.id">
       <h4>JP:{{mechanism.japanese}}</h4>
       <p>EN:{{mechanism.english}}</p>
     </div>
