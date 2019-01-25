@@ -2,7 +2,8 @@
   <div id="app">
     <div>
       <app-header></app-header>
-      <app-contents1></app-contents1>
+      <app-content1></app-content1>
+      <app-content2></app-content2>
       <app-footer></app-footer>
     </div>
   </div>
@@ -10,13 +11,15 @@
 
 <script>
 import Header from "./components/Header.vue";
-import Contents1 from "./components/Contents1.vue";
+import Content1 from "./components/Content1.vue";
+import Content2 from "./components/Content2.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
   components: {
     'app-header': Header,
-    'app-contents1': Contents1,
+    'app-content1': Content1,
+    'app-content2': Content2,
     'app-footer': Footer,
   }
 }
